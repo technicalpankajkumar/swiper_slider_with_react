@@ -155,7 +155,7 @@ body {
   bottom: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .slider-controller .swiper-button-next {
@@ -163,10 +163,10 @@ body {
   transform: translateX(-58%) !important;
 }
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   .slider-controller .swiper-button-next {
-    left: 70% !important;
-    transform: translateX(-70%) !important;
+    left: 60% !important;
+    transform: translateX(-60%) !important;
   }
 }
 
@@ -189,7 +189,7 @@ body {
     left: 20% !important;
     transform: translateX(-20%) !important;
   }
-}
+} */
 
 .slider-controller .slider-arrow {
   background: var(--white);
